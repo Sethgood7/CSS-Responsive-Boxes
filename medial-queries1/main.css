@@ -12,6 +12,7 @@ body {
   max-width: 300px;
   width: 100%;
   position: absolute;
+  flex: wrap;
   
 }
 
@@ -26,6 +27,7 @@ body {
   position: absolute;
   top: 100px;
   align-items: center;
+  flex: wrap;
 }
 
 .c{
@@ -39,4 +41,5 @@ body {
   position: absolute;
   top: 415px;
   align-items: center;
+  flex: wrap;
 }
