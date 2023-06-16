@@ -47,7 +47,7 @@ body {
 }
 
 .c{
-  left: 60px;
+  left: 40px;
 }
 
 .d{
@@ -71,4 +71,36 @@ left: 475px;
   position: absolute;
   top: 230px;
   left: 1225px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .a {
+    flex-direction: column;
+    height: 20%;
+    position: static;
+  }
+
+  .b {
+    flex-direction: column;
+    height: 50%;
+    position: static;
+    top: auto;
+  }
+
+  .c, .d, .e {
+    flex-direction: column;
+    height: 15%;
+    position: static;
+    top: auto;
+    left: auto;
+  }
+
+  .f {
+    flex-direction: column;
+    height: 15%;
+    position: static;
+    top: auto;
+    left: auto;
+  }
 }
